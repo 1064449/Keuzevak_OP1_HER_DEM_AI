@@ -12,44 +12,37 @@ Dit verslag is als volgt ingedeeld: Eerst wordt er een gedeelte toegeweid aan de
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 ### Problem Selection, Definition & Motivation + Human in the Loop
 
 Artificial Intelligence verwijst naar een extreem ontwikkeld algoritmes die in staat zijn taken uit te voeren die normaal gesproken menselijke intelligentie vereisen. Dit bevat het soort taken waarbij het ontwikkelen en bijspijkeren van kennis, en het handelen op basis van eerdere gebeurtenissen, hoognodig is, zoals probleemoplossing en patroonherkenning.  Volgens Sjoerd Bijvank(z.d.)[1] zijn de vijf karakteristieken van AI als volgt:
 #### 1.	Leren
-AI zou door middel van vallen en opstaan moeten kunnen leren, zoals bij schaakcomputers bijvoorbeeld.
+AI zou door middel van vallen en opstaan moeten kunnen leren, zoals bij schaakcomputers bijvoorbeeld. Dit is een belangrijk gedeelte van wat AI zo revolutionair maakt, op basis van eerdere resultaten kan AI zijn eigen algoritme aanpassen, en dus leren van eerdere gebeurtenissen. Een voorbeeld hiervoor is een model die helpt met het detecteren van woorden en zinnen, dit model zal aanvankelijk niet al te beste resultaten hebben, maar zolang het blijft trainen zal het uiteindelijk bijna alles verstaan. 
 #### 2.	Redeneren
-AI zou conclusies moeten kunnen trekken op basis van inductie en deductie, inductie is dus ook een gedeelte van leren op basis van vorige gebeurtenissen.
+AI zou conclusies moeten kunnen trekken op basis van inductie en deductie, inductie is dus ook een gedeelte van leren op basis van vorige gebeurtenissen. Dit is belangrijk bij AIs die bepaalde dingen moeten detecteren, en als redeneren niet gaat, dan zouden ze dus ook geen oordelen kunnen vellen op ervaring. Dit zou bijvoorbeeld van pas kunnen komen bij een AI model dat spam-mails moet herkennen. Op basis van de eerdere aangetoonde en niet aangetoonde spam-mails waarop het model getraind is zal het model moeten redeneren waarom de mail die hij nu voor zich heeft wel of geen spam is.
 #### 3.	Problemen oplossen
-AI moet problemen kunnen oplossen op basis van de kennis waarop het model getraind is en de input gegeven aan het model.
+AI moet problemen kunnen oplossen op basis van de kennis waarop het model getraind is en de input gegeven aan het model. Dit komt vooral van pas bij AI modellen die helpen met technische vaardigheden zoals programmeren, als een AI niet weet hoe iets opgelost moet worden zal deze de stappen richting de oplossing ook niet aan kunnen tonen.
 #### 4.	Perceptie
-Door middel van het afscannen van de omgeving moet AI in staat zijn om verschillende objecten te kunnen herkennen.
+Door middel van het afscannen van de omgeving moet AI in staat zijn om verschillende objecten te kunnen herkennen. Dit is vooral belangrijk in de opkomst van zelfrijdende auto's. Door middel van perceptie zal de AI een goede bestuurder moeten worden, aangezien de AI hierdoor een goed overzicht heeft op alles op de weg en dus ook alle verkeersborden en verkeersdeelnemers kan herkennen.
 #### 5.	Taalgebruik
-AI moet in staat zijn om te kunnen conversen op het zelfde niveau dat mensen dat ook doen, met zinnen die een gepast vocabulaire bevatten, en ook niet te lang of te kort zijn.
+AI moet in staat zijn om te kunnen conversen op het zelfde niveau dat mensen dat ook doen, met zinnen die een gepast vocabulaire bevatten, en ook niet te lang of te kort zijn. Een belangrijk gedeelte van conversationele AI is het geven van een passend antwoord. Voordat dit lukt moet er natuurlijk eerst begrepen worden wat er aan het model gevraagd wordt, en daarna zal er dus oop een passend antwoord gegeven moeten worden. Dit is belangrijk bij door AI-gegenereerde reacties vanuit bedrijven. Stel dat iemand een uitgebreidde sollicitatie verstuurt naar een bedrijf, en de AI antwoordt hier op met een enkele zin van vijf woorden, dit zou ongepast zijn vanuit het bedrijf, en zou dus slecht voor hun imago zijn. Daarom is het essentieël dat de lengte van de zin passend is bij de reactie van het model en de vraag van de gebruiker
+
+Tenslotte is de menselijke interactie ook een belangrijk gedeelte van AI: human in the loop. Dit betekent dat de AI nog steeds beïnvloed kan worden door mensen, of dat de mensen die het model gebruiken nog steeds de eindbesluiten maken. Dit heeft als gevolg dat de kwaliteit geborgd wordt, van zowel de kwaliteit van het model als de uitkomsten die het model voorspelt, zo kan een mens bijvoorbeeld beter reageren op onvoorziene situaties, en zijn mensen ook beter in het maken van ethische en morele besluiten.
+
 
 ### AI Data Product Description of ChatGPT
 
 ChatGPT is een tekstgenerator die gebruikt maakt van generatieve AI. Het is getraind op een erg grote database van tekst en genereert op basis van een input of een prompt datgene wat er gevraagd wordt. Doordat ChatGPT precies doet wat er gevraagd wordt kan er veel waarde uit gehaald worden als er erg veel aandacht gestoken wordt in de specificaties van de query.
 Het probleem dat ChatGPT oplost is het genereren van samenhangende en kloppende teksten op basis van een input of prompt. 
+
+
 De capabiliteiten en applicatiemogelijkheden van ChatGPT zijn als volgt: De capabiliteiten van ChatGPT liggen binnen het verwerken van natuurlijke data, dit betekent het krijgen van een samenhangende tekst als input, het dan kunnen begrijpen en hier dan vervolgens ook een samenhangend en passend antwoord op kunnen geven. Hierdoor is ChatGPT dus ook passend voor de volgende applicatiemogelijkheden: Het genereren van teksten, en een werking als een conversationele AI, zoals ChatGPT nu werkt. Het verschil tussen de twee applicaties is dat een tekstgenerator meer werkt als een puur vraag en antwoordmodel, terwijl een conversationele AI ook zo goed mogelijk een menselijk gesprek kan nabootsen. Dit betekent dat als je tegen een tekstgenerator zou zeggen dat je jarig bent, deze generator simpelweg zou reageren met een antwoord zoals ‘gefeliciteerd!’ Als je echter aan ChatGPT mededeelt dat je vandaag jarig bent krijg je het volgende te zien.
+
+
  
 ChatGPT, en conversationele AI, gaat veel verder in op de prompts, en probeert dus meer een natuurgetrouw gesprek te houden zoals mensen dat doen.
 ChatGPT is ontwikkeld om zo makkelijk mogelijk te werken, er is een venster waarin onderin een prompt geschreven kan worden, waarna er bovenin het venster een tekst verschijnt, ook zit er aan de linkerkant van het scherm een balk waarin de verschillende prompts te zien zijn die in de afgelopen tijd door de gebruiker gegenereerd zijn, ChatGPT slaat deze namelijk op. Als een oudere prompt geselecteerd wordt kan er een vraag gesteld worden en dan gaat de AI meteen weer door alsof het gesprek nog gaande wordt. Het AI-model zelf werkt met een zogenaamde transformer architectuur. Deze architectuur stelt modellen zoals ChatGPT in staat om belangrijke relaties in lange reeksen van tekst vast te leggen, waardoor ze goed kunnen begrijpen en genereren op basis van contextuele informatie. ChatGPT wordt getraind door middel van unsupervised learning. Unsupervised learning is een manier van machine learning waarbij het algoritme zelf patronen ontdekt in ongelabelde gegevens, zonder specifieke voorbeelden of gewenste uitkomens. Het doel is het identificeren van verbanden en relaties in de data. Bij Supervised learnings zijn de labels juist al bekend en is het einddoel meestal het zo juist mogelijk voorspellen van nieuwe onbekende labels van records die nog niet gezien zijn door het model.
+
+Het is van belang hier te praten over ChatGPT als data product, omdat in de meeste gevallen de werking of het gebruik van ChatGPT simpelweg gezien wordt al verdienmodel, bedrijven gebruiken dit in de meeste gevallen alleen maar om meer geld te kunnen verdienen. Hoewel dit logisch is, gezien de kracht en mogelijkheden die ChatGPT en andere LLMs met zich meebrengen gaat dit wel in tegen de FAIR principes. Dit betekent dat de data vindbaar, toegankelijk, uitwisselbaar, en herbruikbaar moeten zijn. Dit wordt in het bedrijfsleven niet gedaan omdat de meeste bedrijven hun werkingen en gegevens geheim houden als verdienmodel, als al die gegevens op straat zouden liggen kan iedereen er aan verdienen.
 
 ### Use-case Description & Application
 
@@ -67,6 +60,8 @@ In het bedrijfsleven zijn volgens Matellio(2023)[2] dit de tien meest voorkomend
 
 In de meeste van deze use-cases is de meest belichtte kant van ChatGPT inderdaad de tekstgeneratie, zoals bij use-cases 1, 4, 5, en 8. Ook wordt er bij creatieve processen dus veel ChatGPT gebruikt, zoals cases 2 en 9. Verder kan het ook zoals bij case 6 op een educatieve manier gebruikt worden, en zijn er tenslotte nog veel use-cases die te maken hebben met het werken met cijfers en het inspelen van het bedrijf daarop, namelijk case 3, 7, en 10.
 Verder kan ChatGPT ook gebruikt worden voor de volgende doeleindes.
+
+In de bovenstaande lijst zijn er verschillende use cases te zien, die zich ook weer verspreiden over verschillende applicatiedomeinen. Het verschil tussen een use-case en een applicatiedomein is dat een use case een specifiek gebruik is binnen een applicatiedomein. Een applicatiedomein zou bijvoorbeeld de zorg zijn, en een use case zou dan het detecteren van een bepaald soort aandoening in een minderjarige kunnen zijn. Use-cases zijn dus de taken die het model moet verrichten, en het applicatiedomein is de omgeving waarin de AI wordt gebruikt.
  
 #### Fact-checking: 
 Fact-checking zal vooral gebruikt worden door journalisten, die kunnen hun interviews bijvoorbeeld fact-checken om erachter te komen of de professional die ze geïnterviewd hebben wel echt kloppende antwoorden heeft gegeven.
@@ -110,6 +105,7 @@ HCI Principes gaan over de gebruiksvriendelijkheid van de chat-interfaces, in de
 Beoordeling van antwoordkwaliteit is belangrijk als er gebruik gemaakt wordt van fact-checking. Als je een tool gebruikt om de waarheid achter een onderwerp te weten is het belangrijk dat je zeker weet dat de tool die je gebruikt om de ze waarheid te achterhalen ook echt betrouwbaar is en de juiste informatie levert.
 #### Parametersettings: 
 Optimalisatie van modelparameters is belangrijk, en staat direct in verband met de nauwkeurigheid. De parameters beïnvloeden het leerproces van het model, en als dit op de juiste manier ingesteld wordt kan dit het leerproces erg bevorderen. (Desai, G. 2023). [3]
+Parametrisering heeft een grote invloed op de uitkomst van het model, dit wordt echter vaak niet ingezien door eindgebruikers, omdat dit proces zo ver van hun afstaat, de meeste gebruikers hebben namelijk geen benul van wat er allemaal achter het model plaatsvindt, en hoe deze keuzes die zoveel invloed hebben zijn genomen.
  
 ### Critical Reflection & Ethical Considerations
 
@@ -119,6 +115,8 @@ In de toekomst kunnen de werkzaamheden wel in het gedrang kunnen worden door het
 1.	Het bekend maken dat de inhoud is gegenereerd door AI
 2.	Het ontwerpen van het model om te voorkomen dat het illegale inhoud genereert
 3.	Het publiceren van samenvattingen van gecopyright materiaal dat is gebruikt voor de training van het model.
+
+Dit zal het werken van AI in de toekomst op verschillende manieren beïnvloeden, namelijk op een manier waar de verantwoording van het model even belangrijk wordt als de werking van het model zelf. Dit betekent dat er dus ook veel meer overlegd moet worden met een juridische kant die betrokken is bij het model, om aan alle richtlijnen te voldoen. Ook zal ik mij goed op de hoogte moeten houden van alle ethische consideraties die opkomen rond dit soort technologieën, aangezien dit soort opvattingen ook snel kunnen onstaan en veranderen.
 
 
 
